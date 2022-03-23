@@ -86,7 +86,10 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     final newUser = await _auth.createUserWithEmailAndPassword(
                         email: email, password: password);
                     if (newUser != null) {
-                      Navigator.pushNamed(context, 'welcome_screen');
+                      Navigator.pushNamed(context, 'login_screen');
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                          content: Text("User Created Successfully"),
+                      ));
                     }
                   } catch (e) {
                     print(e);
