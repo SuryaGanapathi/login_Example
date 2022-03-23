@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/surya/login/MainActivity.java
+ com.surya.login.MainActivity
+com/surya/login/BuildConfig.java
+ com.surya.login.BuildConfig
